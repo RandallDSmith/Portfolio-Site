@@ -10,10 +10,10 @@ html{
 
 .nav-items{
     display: flex;
-    align-content: space-evenly;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .nav-item{
-    align-content: space-evenly;
+    font-size: large;
 }
