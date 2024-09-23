@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#logo{
+    text-align: center;
+    background-color: darkgray;
+    color: darkblue;
+}
+
+.nav-items{
+    display: flex;
+    align-content: space-evenly;
+    width: 100%;
+}
+
+.nav-item{
+    align-content: space-evenly;
+}
