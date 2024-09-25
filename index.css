@@ -17,3 +17,10 @@ html{
 .nav-item{
     font-size: large;
 }
+
+#about-me{
+    display: flex;
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+}
