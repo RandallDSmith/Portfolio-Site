@@ -3,9 +3,14 @@ html{
 }
 
 #logo{
-    text-align: center;
-    background-color: darkgray;
-    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    height: 300px;
+    background-image: url(./Images/smart-microchip-technology-background-gradient-blue.jpg);
+    background-size: cover;
+    color: white;
 }
 
 .nav-items{
@@ -15,16 +20,20 @@ html{
 }
 
 .nav-item{
-    font-size: large;
+    font-size: xx-large;
 }
 
 #about-me{
     display: flex;
     align-items: center;
-    background-color: blue;
-    height: 200px;
+    background-color: rgb(56, 56, 138);
+    height: 500px;
     width: 100%;
     color: white;
+}
+
+#about-me p{
+    font-size: large;
 }
 
 #profile-pic{
@@ -35,5 +44,36 @@ html{
 }
 
 b{
+    font-size: xx-large;
+}
+
+
+h2{
+    font-size: xx-large;
+}
+
+#ed{
+    display: flex;
+    justify-items: center;
+    background-image: url(./Images/1000_F_454655667_Jh7HTTo6famiQ02fEghTj2EVdQE5GOF7.jpg);
+    background-size: cover;
+    color: white;
+    height: 500px;
+    font-size: xx-large;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./images/5-skills-project-management-degree-elmhurst-college-infographic-thumb.webp);
+    background-size: cover;
+    height: 300px;
+    color: black;
     font-size: large;
 }
+
+#projects h3{
+    font-size: x-large;
+}
+
